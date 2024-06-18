@@ -4,7 +4,7 @@ async function fetchBreedList({ queryKey }) {
     if (!animal) return [];
   
     const res = await fetch(
-      `http://pets-v2.dev-apis.com/breeds?animal=${animal}`
+      `'https://cors-anywhere.herokuapp.com/http://pets-v2.dev-apis.com/breeds?animal=${animal}`
     );
   
     if (!res.ok) {
