@@ -1,5 +1,5 @@
 {
-  "homepage": "http://IsalanyaMwaseSam.github.io/React",
+  "homepage": "http://IsalanyaMwaseSam/github.io/React",
   "name": "citr-v8-project",
   "version": "8.0.0",
   "description": "Complete Intro to React v8 project",
@@ -26,7 +26,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "gh-pages": "^6.1.1",
     "prettier": "2.7.1",
-    "vite": "3.1.4"
+    "vite": "^3.2.10"
   },
   "dependencies": {
     "@tanstack/react-query": "^4.10.1",
