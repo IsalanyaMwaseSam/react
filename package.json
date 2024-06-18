@@ -1,4 +1,5 @@
 {
+  "homepage": "http://IsalanyaMwaseSam.github.io/React",
   "name": "citr-v8-project",
   "version": "8.0.0",
   "description": "Complete Intro to React v8 project",
@@ -8,8 +9,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
-
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "Brian Holt",
