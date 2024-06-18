@@ -7,6 +7,7 @@ export default defineConfig({
     build: {
         outDir: '../build',
       },
+    base: process.env.NODE_ENV === 'production' ? '/react/' : '/',
    
     
 })
