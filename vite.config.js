@@ -7,6 +7,6 @@ export default defineConfig({
     build: {
         outDir: '../build',
       },
-    base: 'https://github.com/IsalanyaMwaseSam/React.git/'
+   
     
 })
